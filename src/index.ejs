@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="js/antm-viewport.min.js"></script>
+  <title>联宠采购商城</title>
+  <link rel="stylesheet" href="/index.css"/>
+  <script>
+    //引入Promise 的fallBack支持(部分安卓手机不支持Promise);
+    if (!window.Promise) {
+      document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"' + '>' + '<' + '/' + 'script>');
+    }
+    var screen_width = window.screen.width;
+    if (screen_width < 375) {
+      var font_size = 50 * (window.devicePixelRatio) * (window.screen.width / 375);
+      document.getElementsByTagName('html')[0].style.fontSize = font_size + 'px';
+    } else if (screen_width > 414) {
+      var font_size = 50 * (window.devicePixelRatio) * (window.screen.width / 375) * 0.75;
+      document.getElementsByTagName('html')[0].style.fontSize = font_size + 'px';
+    }
+  </script>
+</head>
+<body>
+<div id="root"></div>
+<script src="index.js"></script>
+<script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+<script>
+  //FastClick 消除在移动浏览器上触发click时间与一个物理敲击之间的300ms延迟。
+  if ('addEventListener' in document) {
+    window.addEventListener('load', function () {
+      FastClick.attach(document.body);
+    }, false);
+  }
+</script>
+</body>
+</html>

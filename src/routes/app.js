@@ -1,0 +1,18 @@
+/**
+ * Created by zhengxiuming on 2017/9/26.
+ */
+import React, {Component} from 'react';
+import styles from './app.css';
+import {connect} from 'dva';
+//import { withRouter } from 'dva/router'
+
+class App extends Component{
+  render(){
+    return(
+      <div>
+        {this.props.children}
+      </div>
+    )
+  }
+}
+export default connect(({ app, loading }) => ({ app, loading }))(App);
