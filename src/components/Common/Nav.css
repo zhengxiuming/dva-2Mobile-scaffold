@@ -1,0 +1,50 @@
+.nav{
+  height: 88px;
+  width: 100%;
+  text-align: center;
+  line-height: 88px;
+  font-size: 32px;
+  color: #212121;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  border-bottom: 1Px solid #d7d7d7;
+  z-index: 99;
+}
+.left_btn{
+  width: 25%;
+  height: 88px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: red;
+  box-sizing: border-box;
+  background: url(../../../public/images/nav_back_title1@2x.png) no-repeat 24px 16px;
+  background-size: 56px;
+}
+.bg{
+  background-color: #3C3E46;
+  height: 88px;
+  width: 100%;
+  text-align: center;
+  line-height: 88px;
+  font-size: 32px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  border-bottom: 1Px solid #d7d7d7;
+  z-index: 99;
+}
+.bg>div{
+  width: 25%;
+  height: 88px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: red;
+  box-sizing: border-box;
+  background: url(../../../public/images/nav_back_title1baise@2x.png) no-repeat 24px 16px;
+  background-size: 56px;
+}

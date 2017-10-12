@@ -1,0 +1,14 @@
+========布局========
+1、Layout组件包含了Nav导航组件和底部Tab-bar组件。
+2、Nav导航组件默认有两个主题：白色与黑色。
+<- - - - - ->
+使用：页面如果有Tab-bar使用Layout组件即可，如果没有单纯使用Nav即可。
+参数：bgBlack=>({true} or {false});title=>("导航文本");
+
+
+========调试/发布=======
+
+npm run start 启动本地开发
+npm run build 编译
+
+

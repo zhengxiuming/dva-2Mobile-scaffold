@@ -1,0 +1,23 @@
+.container{
+  height: 100px;
+  width: 100%;
+  background-color: #606063;
+  position: absolute;
+  bottom:0px;
+}
+.item{
+  text-align: center;
+  margin: 0px!important;
+  height: 100px;
+  line-height: 24px;
+  font-size: 22px;
+  color: #fff;
+  padding-top: 8px;
+}
+.item>img{
+  height: 50px;
+  width: 50px;
+}
+.hover{
+  background-color: #3C3E46;
+}
