@@ -16,6 +16,9 @@ class Home extends Component {
       initialHeight: 200,
     }
   }
+  componentWillMount(){
+
+  }
   componentDidMount(){
     setTimeout(()=>{
       this.setState({

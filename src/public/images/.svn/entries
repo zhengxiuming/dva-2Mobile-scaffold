@@ -1,14 +1,14 @@
 10
 
 dir
-29148
-svn://zhengxiuming@goudaifu.cn/shop_home_mobile/trunk/public/images
+29470
+svn://zhengxiuming@goudaifu.cn/shop_home_mobile/trunk/src/public/images
 svn://zhengxiuming@goudaifu.cn
 
 
 
-2017-10-10T10:18:54.216015Z
-29148
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 
 
@@ -28,14 +28,14 @@ zhengxiuming
 
 nav_back_title1@2x.png
 file
-29150
+
 
 
 
 2017-08-02T03:50:27.000000Z
 8d7dbf8bc8639b91557c66f840249300
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -62,14 +62,14 @@ has-props
 
 tabbar_my.png
 file
-29150
+
 
 
 
 2017-01-03T02:33:11.000000Z
 144cdd037367ee82a4eb0cb32a411bad
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -96,14 +96,14 @@ has-props
 
 tabbar_home.png
 file
-29150
+
 
 
 
 2017-01-03T02:33:10.000000Z
 3c8a8031c1eea87a2aa1a0ac5254948c
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -130,14 +130,14 @@ has-props
 
 nav_back_title1baise@2x.png
 file
-29150
+
 
 
 
 2017-08-02T03:50:27.000000Z
 496426114f9a83a3a500c1a04e9891ca
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -164,14 +164,14 @@ has-props
 
 tabbar_order.png
 file
-29150
+
 
 
 
 2017-01-03T02:33:11.000000Z
 655431957079b586341c30132fe7046a
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -198,14 +198,14 @@ has-props
 
 tabbar_cate.png
 file
-29150
+
 
 
 
 2017-01-03T02:33:10.000000Z
 0c88ca8462ce57e3069b5552f9b12f6e
-2017-10-11T05:33:49.617582Z
-29150
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 

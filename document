@@ -7,8 +7,17 @@
 
 
 ========调试/发布=======
+===《开发》===
+1、npm run build:dll #第一次npm run start时需运行此命令，使开发时编译更快
+2、npm run start 启动本地开发
 
-npm run start 启动本地开发
-npm run build 编译
+===《编译》===
+> npm run build
+将会打包至dist/{version}目录（也就是当前版本）
 
+> npm run build:new
+将会打包至dist/{version增加1}目录 （当前版本加1）
+
+===《代码检测》===
+> npm run lint
 

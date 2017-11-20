@@ -1,17 +1,17 @@
 10
 
 dir
-29130
+29470
 svn://zhengxiuming@goudaifu.cn/shop_home_mobile/trunk
 svn://zhengxiuming@goudaifu.cn
 
 
 
-2017-09-25T02:49:01.733124Z
-29108
-daisonglin
-
-
+2017-11-18T10:11:09.477787Z
+29470
+zhengxiuming
+has-props
+has-prop-mods
 
 
 
@@ -26,23 +26,16 @@ daisonglin
 
 7adae0e7-1df6-4ac1-a8e5-6a0922fdf22f
 
-.idea
-dir
-
-
-
-add
-
 yarn.lock
 file
-29148
 
 
 
-2017-09-27T03:33:19.000000Z
-ed26e1500cc82752fd46c8dbd8bed5a0
-2017-10-10T10:18:54.216015Z
-29148
+
+2017-11-18T09:43:06.000000Z
+e7f614ad10968c02d8a662c2451c7ce3
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 
 
@@ -65,11 +58,45 @@ zhengxiuming
 
 
 
-262938
+266950
+
+version.js
+file
+
+
+
+
+2017-11-18T07:04:45.000000Z
+44b8783733b80436d761ded7c232a1a9
+2017-11-18T10:00:57.655672Z
+29468
+zhengxiuming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1968
 
 .eslintrc
 file
-29148
+
 
 
 
@@ -103,14 +130,14 @@ zhengxiuming
 
 .roadhogrc.js
 file
-29148
 
 
 
-2017-10-10T02:46:23.000000Z
-eac39f1c8270860498ed2bc8fd5f7cb9
-2017-10-10T10:18:54.216015Z
-29148
+
+2017-11-18T07:19:04.000000Z
+9fb56bad68650ecc2c7e07f8a5304b85
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 
 
@@ -133,18 +160,18 @@ zhengxiuming
 
 
 
-1291
+1508
 
 package.json
 file
-29148
 
 
 
-2017-10-10T02:46:23.000000Z
-fbd50749b5e53071007762032aa659cb
-2017-10-10T10:18:54.216015Z
-29148
+
+2017-11-18T09:38:32.000000Z
+d7e456eab58cc0b363d140c7494f06f3
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 has-props
 
@@ -167,18 +194,18 @@ has-props
 
 
 
-1368
+1603
 
 .gitignore
 file
-29148
 
 
 
-2017-07-25T09:29:37.000000Z
-e2f49f5034f6f3ab274f4c91f90fa34c
-2017-10-10T10:18:54.216015Z
-29148
+
+2017-11-14T07:46:30.000000Z
+ddd13a6d49dd13a155950d112ec11fdd
+2017-11-18T10:11:09.477787Z
+29470
 zhengxiuming
 
 
@@ -201,14 +228,14 @@ zhengxiuming
 
 
 
-169
+185
 
 src
 dir
 
 .roadhogrc.mock.js
 file
-29148
+
 
 
 
@@ -245,7 +272,7 @@ dir
 
 .editorconfig
 file
-29148
+
 
 
 
@@ -277,26 +304,16 @@ zhengxiuming
 
 245
 
-node_modules
-dir
-
-
-
-add
-
-public
-dir
-
-document
+webpack.config.js
 file
-29148
 
 
 
-2017-10-10T03:03:15.000000Z
-964dc3beea4cdf619ef609738c211507
-2017-10-10T10:18:54.216015Z
-29148
+
+2017-11-18T09:38:08.000000Z
+121f59f27ac6600e35ed9d47019b8d46
+2017-11-18T10:00:57.655672Z
+29468
 zhengxiuming
 
 
@@ -319,5 +336,39 @@ zhengxiuming
 
 
 
-411
+1604
+
+document
+file
+
+
+
+
+2017-11-18T09:49:36.000000Z
+ec75b3a8ff7b38d378c6f072c01e8964
+2017-11-18T10:00:57.655672Z
+29468
+zhengxiuming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+732
 

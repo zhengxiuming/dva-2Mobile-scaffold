@@ -8,12 +8,10 @@ function checkStatus(response) {
   if (response.status >= 200 && response.status < 300) {
     return response;
   }
-
   const error = new Error(response.statusText);
   error.response = response;
   throw error;
 }
-
 /**
  * Requests a URL, returning a promise.
  *
@@ -22,9 +20,16 @@ function checkStatus(response) {
  * @return {object}           An object containing either "data" or "err"
  */
 export default function request(url, options) {
+  const header = {
+    credentials: "include",
+    headers: {
+      'Content-Type': 'application/x-www-form-urlencoded'
+    }
+  };
+  options = {...header, ...options};
   return fetch(url, options)
     .then(checkStatus)
     .then(parseJSON)
-    .then(data => ({ data }))
-    .catch(err => ({ err }));
+    .then(data => ({data}))
+    .catch(err => ({err}))
 }
